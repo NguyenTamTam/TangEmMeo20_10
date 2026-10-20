@@ -7,6 +7,8 @@
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
     <title>Gửi Em Meo 💖</title>
+    <audio src="music.mp3" autoplay controls hidden>
+      </audio>
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Dancing+Script:wght@600&family=Be+Vietnam+Pro:wght@300;400;600&display=swap&subset=vietnamese"
       rel="stylesheet"
@@ -36,6 +38,13 @@
         color: var(--text);
         font-family: var(--sans);
       }
+      audio {
+    
+    position: absolute;
+    top: 105%;
+    right: 44%;
+    animation: fadein ease 5s;
+  }
       .glow {
         position: fixed;
         border-radius: 50%;
@@ -442,9 +451,6 @@
     </style>
   </head>
   <body>
-     <audio src="Sống trong gia đình… - Có Mình Và Ta Remix.mp3" autoplay controls hidden>
-      </audio>
-    
     <div class="glow g1"></div>
     <div class="glow g2"></div>
 
